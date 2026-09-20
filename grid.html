@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <section class="sectionone">
+    <header>
+      <h1>📖 STUDENT LEARNING PORTAL</h1> 
+   </header>
+    <nav class="firstdiv">
+       <a href="index.html" >Home |</a> 
+       <a href="course.html" >Courses |</a> 
+       <a href="Assignment.html">Notes |</a> 
+       <a href="Assignment.html" >Assignments |</a> 
+       <a href="about.html" >About |</a> 
+       <a href="contact.html" >Contact </a>
+    </nav>
+    </section>
+<hr>
+
+    <div class="container">
+    <h1 id="h1">Grid in CSS</h1>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <div class="container1">
+
+    <p>
+
+CSS Grid is a powerful CSS layout system used to arrange elements into rows and columns. It is especially useful for creating structured web page layouts such as course cards, image galleries, dashboards, menus, and study portals.
+
+Unlike Flexbox, which mainly works in one direction (row or column), Grid can control both rows and columns at the same time.
+<br>
+<hr>
+<br>
+
+
+<h3>1. Basic Grid</h3>
+<br>
+<p>
+.container { <br>
+    display: grid;<br>
+}<br>
+<br>
+The display: grid property makes an element a Grid Container, and its child elements become Grid Items. <br>
+    </p>
+    <br>
+    <hr>
+<br>
+<h3>2. Creating Columns/h3>
+<br>
+<p>
+.container { <br>
+    display: grid; <br>
+    grid-template-columns: 1fr 1fr 1fr; <br>
+} <br>
+<br> 
+This creates 3 equal columns.
+</p>
+
+
+<br>
+<hr>
+<br>
+<h3>3. grid-template-columns</h3>
+<br>
+<p>It defines the number and size of columns. <br>
+<br>
+.container { <br>
+    display: grid; <br>
+    grid-template-columns: 200px 300px 200px; <br>
+} <br>
+<br>
+You can also use fr:<br>
+<br>
+grid-template-columns: 1fr 2fr 1fr; <br>
+<br>
+Here, the middle column gets twice as much space as the first and third columns..</p> <br>
+<br>
+<br>
+<hr>
+<br>
+<h3>4. grid-template-rows</h3>
+<br>
+<p>It defines the height of rows. <br>
+<br>
+.container { <br>
+    display: grid; <br>
+    grid-template-rows: 100px 200px; <br>
+}</p> 
+<br> 
+<hr>
+<br>
+<h3>5. gap</h3>
+<br>
+<p>The gap property creates space between rows and columns. <br>
+<br>
+.container { <br>
+    display: grid; <br>
+    gap: 20px; <br>
+} <br>
+<br>
+You can separately set:<br>
+<br>
+row-gap: 20px; <br>
+column-gap: 30px;
+</p>
+<br>
+<Hr>
+    <br>
+    
+
+</div>
+</div>
+
+<footer class="footer">
+            <p> © 2026 Student Learning Portal</p>
+        </footer>
+
+</body>
+</html>

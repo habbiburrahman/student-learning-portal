@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+      
+}
+
+.sectionone{
+    background-color: #0B2D5C;
+    color: white;
+    direction: none;
+    display: flex;
+    margin: 0;
+    
+
+}
+.firstdiv {
+    margin-left: auto;
+    margin-top:10px;
+    
+}
+.sectionone .firstdiv a{
+
+    text-decoration: none;
+    color: white;
+    text-align:right;
+    font-size: 20px;
+}
+.courses{
+    display: flex;
+    margin-left: 200px;
+    
+    box-sizing: border-box;
+    
+
+}
+#background{
+    background-image: url(back.png);
+    background-size: cover;
+    
+
+}
+#html{
+    border: 2px solid white;
+    border-top-color: #f4511e;
+    box-shadow: 0 0 2px #f4511e;
+    margin: 40px;
+    margin-top: 15px;
+    height: 330px;
+    width: 200px;
+}
+.htmlimg{
+    margin-left:25px ;
+    margin-top: 15px;
+}
+#htmlh2{
+    text-align: center;
+    color: #f4511e;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+
+}
+
+#css{
+    border: 2px solid white;
+    border-top-color: #1565d8;
+    box-shadow: 0 0 2px #1565d8;
+    margin: 35px;
+    margin-top: 15px;
+    height: 330px;
+    width: 200px;
+}
+#cssimg{
+    margin-left:25px ;
+    margin-top: 15px;
+}
+#cssh2{
+    text-align: center;
+    color: #1565d8;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+
+}
+#js{
+    border: 2px solid white;
+    border-top-color: #EAB308;
+    box-shadow: 0 0 2px #EAB308;
+    margin: 40px;
+    margin-top: 15px;
+    height: 330px;
+    width: 200px;
+}
+
+#jsimg{
+    margin-left:25px ;
+    margin-top: 15px;
+}
+
+.jsh2{
+    text-align: center;
+    color:#EAB308;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+
+}
+.Assignment1{      
+    background-color: #f4511e;
+    color: white;
+    border: 2px solid #f4511e;
+    border-radius:10px ;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.Assignment2{      
+    background-color: #1565d8;
+    color: white;
+    border: 2px solid #1565d8;
+    border-radius:10px ;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.Assignment3{      
+    background-color: #EAB308;
+    color: white;
+    border: 2px solid #EAB308;
+    border-radius:10px ;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    margin:0px;
+    width: 100vp;
+    height: 30px;
+    background-color: #0B2D5C;
+    color: white;
+}
+
+
+
+@media (max-width: 600px) {
+
+    /* Header / Navigation */
+    .sectionone {
+        width: 100%;
+        height: auto;
+        min-height: 90px;
+        display: block;
+        text-align: center;
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
+
+    .firstdiv {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .sectionone .firstdiv a {
+        font-size: 14px;
+        margin: 3px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+
+    /* Course Section */
+    .courses {
+        width: 100%;
+        margin: 0;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+
+    /* All Course Cards */
+    .course-card {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        min-height: 330px;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+
+    /* HTML Card */
+    #html {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        min-height: 330px;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+    .htmlimg {
+        width: 120px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+
+    #htmlh2 {
+        font-size: 32px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+    /* CSS Card */
+    #css {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        min-height: 330px;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+    #cssimg {
+        width: 120px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+
+    #cssh2 {
+        font-size: 32px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+    /* JavaScript Card */
+    #js {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        min-height: 330px;
+        margin: 15px auto;
+        box-sizing: border-box;
+    }
+
+    #jsimg {
+        width: 120px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .jsh2 {
+        font-size: 32px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+    /* Assignment Buttons */
+    .Assignment1,
+    .Assignment2,
+    .Assignment3 {
+        width: 90%;
+        max-width: 240px;
+        margin: 8px auto;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+
+    /* Footer */
+    .footer {
+        width: 100%;
+        height: auto;
+        min-height: 40px;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+}

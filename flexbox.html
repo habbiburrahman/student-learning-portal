@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <section class="sectionone">
+    <header>
+      <h1>📖 STUDENT LEARNING PORTAL</h1> 
+   </header>
+    <nav class="firstdiv">
+       <a href="index.html" >Home |</a> 
+       <a href="course.html" >Courses |</a> 
+       <a href="Assignment.html">Notes |</a> 
+       <a href="Assignment.html" >Assignments |</a> 
+       <a href="about.html" >About |</a> 
+       <a href="contact.html" >Contact </a>
+    </nav>
+    </section>
+<hr>
+
+    <div class="container">
+    <h1 id="h1">Flexbox in CSS</h1>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <div class="container1">
+
+    <p>
+
+Flexbox, short for Flexible Box Layout, is a powerful CSS layout system used to arrange and align elements on a webpage. It makes it easier to create layouts where elements need to be placed in a row or column. Flexbox is commonly used for navigation bars, buttons, cards, menus, images, and responsive website layouts.
+<br>
+<hr>
+<br>
+<p>
+
+Flexbox works with a parent element and its child elements. When we apply display: flex; to the parent element, it becomes a flex container, and its direct children become flex items. Flexbox provides several properties to control the direction, alignment, spacing, and size of these items.
+    </p>
+    <br>
+    <hr>
+<br>
+
+<h2>Important Flexbox Properties</h2>
+<br>
+
+<h3>1. display: flex</h3>
+<br>
+<p>
+The display: flex property is used to enable Flexbox on a container.
+<br>
+.container { <br>
+    display: flex;<br>
+} <br>
+
+
+The element becomes a flex container, and its direct child elements become flex items.
+    </p>
+    <br>
+    <hr>
+<br>
+<h3>2. flex-direction</h3>
+<br>
+<p>
+The flex-direction property specifies the direction in which flex items are arranged.
+<br>
+.container { <br>
+    display: flex;<br>
+    flex-direction: row;<br>
+}<br>
+
+
+The main values are:<br>
+<br>
+flex-direction: row; <br>
+flex-direction: row-reverse; <br>
+flex-direction: column; <br>
+flex-direction: column-reverse; <br>
+
+row arranges items horizontally, while column arranges them vertically.
+</p>
+
+
+<br>
+<hr>
+<br>
+<h3>3. justify-content</h3>
+<br>
+<p>The justify-content property controls the alignment of flex items along the main axis.
+<br>
+.container { <br>
+    display: flex; <br>
+    justify-content: center; <br>
+} <br> <br>
+
+Common values include: <br> <br>
+
+justify-content: flex-start; <br>
+justify-content: flex-end; <br>
+justify-content: center; <br>
+justify-content: space-between; <br>
+justify-content: space-around; <br>
+justify-content: space-evenly; <br> <br>
+
+For example: <br>
+
+.container { <br>
+    display: flex; <br>
+    justify-content: space-between; <br>
+} <br>
+
+This distributes available space between the items..</p> <br>
+<br>
+<br>
+<hr>
+<br>
+<h3>4. align-items</h3>
+<br>
+<p>The align-items property controls the alignment of flex items along the cross axis. <br>
+<br>
+.container {<br>
+    display: flex;<br> 
+    align-items: center; <br>
+} <br>
+
+Common values are: <br>
+
+align-items: flex-start; <br>
+align-items: flex-end; <br>
+align-items: center; <br>
+align-items: stretch; <br> <br>
+
+It is commonly used to vertically center elements.</p>
+<br> 
+<hr>
+<br>
+<h3>5. gap</h3>
+<br>
+<p>The gap property creates space between flex items. <br>
+<br>
+.container { <br> 
+    display: flex; <br>
+    gap: 20px; <br>
+}<br> <br>
+
+This creates a 20px gap between the items.</p>
+<br>
+<Hr>
+    <br>
+    
+
+</div>
+</div>
+
+<footer class="footer">
+            <p> © 2026 Student Learning Portal</p>
+        </footer>
+
+</body>
+</html>
